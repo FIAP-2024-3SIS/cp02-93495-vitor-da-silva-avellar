@@ -1,5 +1,7 @@
-<div *ngFor="let animal of animals">
-  <app-animal-item [animal]="animal">
-  </app-animal-item>
-</div>
+<!-- animal-page.component.html -->
 
+<div class="row">
+  <div class="col-md-4" *ngFor="let animal of animals" [ngClass]="{'cinza-background': animal.sexo ==='macho','azul-background': animal.sexo === 'femea' }">
+    <app-animal-item [animal]="animal"></app-animal-item>
+  </div>
+</div>

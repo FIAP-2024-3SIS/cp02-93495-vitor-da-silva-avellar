@@ -1,8 +1,6 @@
-export class Animal{
+// animal.ts
 
-  /**
-   *
-   */
+export class Animal{
   constructor(nome: string,
               especie: string,
               idade: number,

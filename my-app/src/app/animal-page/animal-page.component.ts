@@ -1,3 +1,5 @@
+// Animal-Page.component.ts
+
 import { Component } from '@angular/core';
 import { Animal } from '../models/animal';
 import { AnimalItemComponent } from "../animal-item/animal-item.component";
